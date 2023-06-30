@@ -6,4 +6,4 @@ jobs:
   test:
     runs-on: ubunto-20.04
     steps:
-      - run: echo "GEEK-GIT1"
+      - run: echo "Testes"
