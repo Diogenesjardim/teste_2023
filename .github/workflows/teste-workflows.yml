@@ -1,0 +1,9 @@
+name: Run Testes
+run-name: On Push - Testes Run
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubunto-20.04
+    steps:
+      - run: echo "GEEK-GIT1"
